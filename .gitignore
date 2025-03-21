@@ -4,3 +4,4 @@ medcat_models/
 *.jsonl
 *.dat
 *.csv
+.env
