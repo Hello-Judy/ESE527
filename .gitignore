@@ -1,0 +1,6 @@
+# 忽略大文件
+Data/
+medcat_models/
+*.jsonl
+*.dat
+*.csv
