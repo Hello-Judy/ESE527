@@ -4,4 +4,5 @@ medcat_models/
 *.jsonl
 *.dat
 *.csv
-.envUpdated_Data.ipynb
+.env
+
