@@ -6,3 +6,9 @@ medcat_models/
 *.csv
 .env
 
+.ipynb_checkpoints/
+*.pickle
+*.pkl
+__pycache__/
+*.pyc
+.DS_Store
