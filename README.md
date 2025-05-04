@@ -48,7 +48,7 @@ We collected clinical notes along with their corresponding documentation IDs and
 We used charttime to timestamp each visit and organized all notes chronologically per patient. Rare concepts (appearing only once across the dataset) were filtered as outliers. To capture longitudinal patient journeys, we implemented a temporal bucketing strategy (e.g., <1 Day>, <1 Month>) and built a structured clinical timeline for each patient. The final dataset enables downstream modeling tasks such as patient trajectory prediction, temporal concept clustering, and bias-aware medical analysis.
 In the next step, we will begin process the tokenization and applied them into the LLaMA v2-7B and Mistral v0.1-7B model for prediction.
 
-Test on 1000 patients: https://colab.research.google.com/drive/1rhPykIPRRTDICNTMeI3d0xvV5uypN4be?usp=sharing
+**Test on 1000 patients:** https://colab.research.google.com/drive/1rhPykIPRRTDICNTMeI3d0xvV5uypN4be?usp=sharing
 1. Logistic regression model on mortality prediction
 2. LLaMA on mortality prediction
 
