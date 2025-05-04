@@ -49,4 +49,6 @@ We used charttime to timestamp each visit and organized all notes chronologicall
 In the next step, we will begin process the tokenization and applied them into the LLaMA v2-7B and Mistral v0.1-7B model for prediction.
 
 Test on 1000 patients: https://colab.research.google.com/drive/1rhPykIPRRTDICNTMeI3d0xvV5uypN4be?usp=sharing
+1. Logistic regression model on mortality prediction
+2. LLaMA on mortality prediction
 
